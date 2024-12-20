@@ -25,3 +25,19 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.paginationBTN{
+    text-align: center;
+    margin-bottom: 50px;
+    /* width: 50%; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.paginationBTN button {
+    text-align: center;
+    margin-right: 15px;
+}
+
+.paginationBTN .selected{
+    background-color: #FF9900;
+}

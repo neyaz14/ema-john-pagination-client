@@ -4,7 +4,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import ReviewItem from '../ReviewItem/ReviewItem';
 import './Orders.css';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
-
+'099'
 const Orders = () => {
     const savedCart = useLoaderData();
     const [cart, setCart] = useState(savedCart);
